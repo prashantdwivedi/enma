@@ -1,6 +1,3 @@
----
-icon: material/gesture-tap-button
----
 # Uptime Kuma install
 
 Last Update August 13, 2022 
