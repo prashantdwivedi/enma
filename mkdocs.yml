@@ -1,16 +1,73 @@
-site_name: Enma my Docs
+site_name: Enma
+extra_css:
+  - stylesheets/extra.css
 theme:
+  logo: assets/enma-logo.svg
+  favicon: assets/enma-logo.svg
+  homepage: https://enma.dev
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.annotate 
+    - content.tabs.link
   name: material
-  palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
+  palette:
+      # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+      # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+      auto_title: true
+      linenums: true
+      use_pygments: true
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.betterem
+  - pymdownx.smartsymbols
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - tables
+  - footnotes
+  - md_in_html
+plugins:
+  - glightbox
+#footer
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
