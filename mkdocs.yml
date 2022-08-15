@@ -1,36 +1,61 @@
 site_name: Enma
+site_url: https://enma.dev
+site_author: Prashant Dwivedi
+site_description: >-
+  A website share tips and trick to related linux explore
+
+# Copyright
+copyright: Copyright &copy; 2022 Prashant Dwivedi
+
+# Configuration
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
+
 theme:
   logo: assets/enma-logo.svg
   favicon: assets/enma-logo.svg
-  homepage: https://enma.dev
   features:
+    # - announce.dismiss
+    - content.code.annotate
+    #- content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
     - navigation.indexes
-    - navigation.tabs
-    - navigation.instant
+    # - navigation.instant
+    # - navigation.prune
     - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.top
-    - content.code.annotate 
-    - content.tabs.link
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    #- toc.integrate
   name: material
   palette:
       # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: deep purple
       accent: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
       # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: deep purple
       accent: deep purple
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    logo: logo
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -78,3 +103,11 @@ extra:
 
 edit_uri: edit/master/docs/
 
+# page tree
+nav:
+  - Home: index.md
+  #- Linux Commands:
+  - Linux Software:
+    - Uptime kuma: linux-software/uptime-kuma-setup.md
+    - Local error: linux-software/how-to-fix-a-local-setting-warning-from-perl.md
+  #- Tools Customise:

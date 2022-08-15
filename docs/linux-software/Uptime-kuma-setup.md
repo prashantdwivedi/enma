@@ -1,6 +1,5 @@
 ---
-icon: material/alert-outline
-
+icon: material/gesture-tap-button
 ---
 # Uptime Kuma install
 
