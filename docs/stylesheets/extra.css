@@ -7,7 +7,7 @@
   // ----------------------------------------------------------------------------
   
   // Allow to explicitly use color schemes in nested content
-  [data-md-color-scheme="deep purple"] {
+  [data-md-color-scheme="default"] {
     @extend %root;
   }
   
@@ -107,3 +107,4 @@
       0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.2),
       0 0              #{px2rem(1px)}  hsla(0, 0%, 0%, 0.35);
   }
+  

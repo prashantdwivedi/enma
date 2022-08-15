@@ -1,3 +1,7 @@
+---
+icon: material/alert-outline
+
+---
 # Uptime Kuma install
 
 Last Update August 13, 2022 
