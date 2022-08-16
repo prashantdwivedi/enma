@@ -2,7 +2,7 @@ site_name: Enma
 site_url: https://enma.dev
 site_author: Prashant Dwivedi
 site_description: >-
-  A website share tips and trick to related linux explore
+  An enma.dev, a simple Linux tips and tricks website, shares that experience with linux exploration.
 
 # Copyright
 copyright: Copyright &copy; 2022 Prashant Dwivedi
@@ -11,9 +11,12 @@ copyright: Copyright &copy; 2022 Prashant Dwivedi
 extra_css:
   - assets/stylesheets/extra.css
 
+#theme
 theme:
   logo: assets/enma-logo.svg
   favicon: assets/enma-logo.svg
+
+  #features
   features:
     #- announce.dismiss
     - content.code.annotate
@@ -34,6 +37,8 @@ theme:
     - search.suggest
     - toc.follow
     #- toc.integrate
+  
+  #theme-name-and-basic-color
   name: material
   palette:
       # Palette toggle for dark mode
@@ -50,13 +55,17 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+  
+  #fonts
   font:
     text: Roboto
     code: Roboto Mono
-
+  
+  #icons
   icon:
     logo: logo
 
+#extenstions
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
@@ -92,24 +101,26 @@ markdown_extensions:
   - tables
   - footnotes
   - md_in_html
+
+#plugins
 plugins:
   - glightbox
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true
+
 #footer
 extra:
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/leodwivedi
 
-edit_uri: edit/master/docs/
-
-# page tree
+#nav-page tree
 nav:
   - Home: index.md
   #- Linux Commands:
   - Linux Software:
-    - Uptime kuma: linux-software/uptime-kuma-setup.md
+    - Uptime kuma: linux-software/Uptime-kuma-setup.md
     - Local error: linux-software/how-to-fix-a-local-setting-warning-from-perl.md
   #- Tools Customise:
