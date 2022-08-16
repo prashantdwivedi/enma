@@ -15,6 +15,5 @@ jobs:
           python-version: 3.8
       - run: pip install mkdocs-material
       - run: pip install beautifulsoup4
-      - run: pip install glightbox
       - run: pip install mkdocs-glightbox
       - run: mkdocs gh-deploy --force
