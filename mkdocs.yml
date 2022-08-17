@@ -43,6 +43,7 @@ theme:
   palette:
       # Palette toggle for dark mode
     - scheme: slate
+      primary: teal
     
   
   #fonts
