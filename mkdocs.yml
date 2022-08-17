@@ -105,10 +105,8 @@ extra:
 #nav-page tree
 nav:
   - Home: index.md
-  - Linux Commands:
-    - Commands: linux-commands/commands-1.md
+  #- Linux Commands:
   - Linux Software:
     - Uptime kuma: linux-software/Uptime-kuma-setup.md
     - Local error: linux-software/how-to-fix-a-local-setting-warning-from-perl.md
-  - Tools Customise:
-    - Tool: tools-customise/tool-1.md
+  #- Tools Customise:
