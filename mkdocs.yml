@@ -1,4 +1,4 @@
-site_name: Enma
+site_name: Enma Dev
 site_url: https://enma.dev
 site_author: Prashant Dwivedi
 site_description: >-
@@ -43,18 +43,7 @@ theme:
   palette:
       # Palette toggle for dark mode
     - scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-      # Palette toggle for light mode
-    - scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+    
   
   #fonts
   font:
@@ -104,11 +93,8 @@ markdown_extensions:
 
 #plugins
 plugins:
- #- glightbox
+  - glightbox
   - search
- #- git-revision-date-localized:
-      #enable_creation_date: true
-      #fallback_to_build_date: true
 
 #footer
 extra:
@@ -119,8 +105,10 @@ extra:
 #nav-page tree
 nav:
   - Home: index.md
-  #- Linux Commands:
+  - Linux Commands:
+    - Commands: linux-commands/commands-1.md
   - Linux Software:
     - Uptime kuma: linux-software/Uptime-kuma-setup.md
     - Local error: linux-software/how-to-fix-a-local-setting-warning-from-perl.md
-  #- Tools Customise:
+  - Tools Customise:
+    - Tool: tools-customise/tool-1.md
