@@ -43,8 +43,7 @@ theme:
   palette:
       # Palette toggle for dark mode
     - scheme: slate
-    
-  
+
   #fonts
   font:
     text: Roboto
