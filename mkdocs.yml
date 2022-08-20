@@ -106,6 +106,5 @@ nav:
   - Home: index.md
   #- Linux Commands:
   - Linux Software:
-    - Uptime kuma: linux-software/Uptime-kuma-setup.md
-    - Local error: linux-software/how-to-fix-a-local-setting-warning-from-perl.md
+    - Uptime Kuma Install: linux-software/uptime-kuma-install.md
   #- Tools Customise:
