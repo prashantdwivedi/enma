@@ -20,7 +20,7 @@
   
   // Default theme, i.e. light mode
   %root {
-  
+    
     // Default color shades
     --md-default-fg-color:               hsla(0, 0%, 0%, 0.87);
     --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54);
@@ -68,7 +68,7 @@
   
     // Typeset `a` color shades
     --md-typeset-a-color:                var(--md-primary-fg-color);
-  
+    
     // Typeset `mark` color shades
     --md-typeset-mark-color:             hsla(#{hex2hsl($clr-yellow-a200)}, 0.5);
   

@@ -7,10 +7,10 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="An enma.dev, a simple Linux tips and tricks website, shares that experience with linux exploration." name="description"/>
 <meta content="Prashant Dwivedi" name="author"/>
-<link href="https://enma.dev/linux-software/uptime-kuma-install/" rel="canonical"/>
+<link href="https://enma.dev/linux-software/adguard-home-install/" rel="canonical"/>
 <link href="../../assets/enma-logo.svg" rel="icon"/>
 <meta content="mkdocs-1.3.1, mkdocs-material-8.4.0" name="generator"/>
-<title>Uptime Kuma Install - Enma Dev</title>
+<title>Adguard Home Install - Enma Dev</title>
 <link href="../../assets/stylesheets/main.69437709.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -25,7 +25,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#follow-the-below-steps">
+<a class="md-skip" href="#automated-install-linux-and-mac">
           Skip to content
         </a>
 </div>
@@ -49,7 +49,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Uptime Kuma Install
+              Adguard Home Install
             
           </span>
 </div>
@@ -104,7 +104,7 @@
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="./">
+<a class="md-tabs__link md-tabs__link--active" href="../uptime-kuma-install/">
         Linux Software
       </a>
 </li>
@@ -141,14 +141,19 @@
           Linux Software
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../uptime-kuma-install/">
+        Uptime Kuma Install
+      </a>
+</li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          Uptime Kuma Install
+          Adguard Home Install
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        Uptime Kuma Install
+        Adguard Home Install
       </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -157,22 +162,22 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#follow-the-below-steps">
-    Follow the below steps:
+<a class="md-nav__link" href="#automated-install-linux-and-mac">
+    Automated install (Linux and Mac)
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#some-use-full-commands-pm2">
-    Some use full commands pm2
+<a class="md-nav__link" href="#you-can-control-the-service-status-with-the-following-commands">
+    You can control the service status with the following commands:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-additional-dns-blocklists">
+    Adding Additional DNS Blocklists
   </a>
 </li>
 </ul>
 </nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../adguard-home-install/">
-        Adguard Home Install
-      </a>
 </li>
 </ul>
 </nav>
@@ -192,13 +197,18 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#follow-the-below-steps">
-    Follow the below steps:
+<a class="md-nav__link" href="#automated-install-linux-and-mac">
+    Automated install (Linux and Mac)
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#some-use-full-commands-pm2">
-    Some use full commands pm2
+<a class="md-nav__link" href="#you-can-control-the-service-status-with-the-following-commands">
+    You can control the service status with the following commands:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-additional-dns-blocklists">
+    Adding Additional DNS Blocklists
   </a>
 </li>
 </ul>
@@ -208,51 +218,44 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Uptime Kuma Install</h1>
-<h3 id="follow-the-below-steps">Follow the below steps:</h3>
-<p>Fix Time, location, and language
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a>sudo raspi-config
+<h1>Adguard Home Install</h1>
+<p><a class="glightbox" href="/assets/adguard-cover.png"><img alt="Untitled" src="/assets/adguard-cover.png"/></a></p>
+<h3 id="automated-install-linux-and-mac">Automated install (Linux and Mac)</h3>
+<p>Run the following command in your terminal:</p>
+<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a>curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh <span class="p">|</span> sh -s -- -v
 </code></pre></div>
-1. Go on root
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos="1 "></span></a>sudo su
-<a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos="2 "></span></a><span class="c1">#for exit from root</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3"></a><a href="#__codelineno-1-3"><span class="linenos" data-linenos="3 "></span></a><span class="nb">exit</span>
+<p>The script also accepts some options:</p>
+<ul>
+<li><code>c &lt;channel&gt;</code> to use the specified channel.</li>
+<li><code>r</code> to reinstall AdGuard Home;</li>
+<li><code>u</code> to uninstall AdGuard Home;</li>
+<li><code>v</code> for verbose output;</li>
+</ul>
+<p>Note that options <code>-r</code> and <code>-u</code> are mutually exclusive.</p>
+<h3 id="you-can-control-the-service-status-with-the-following-commands">You can control the service status with the following commands:</h3>
+<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos="1 "></span></a>sudo /opt/AdGuardHome/AdGuardHome -s start<span class="p">|</span>stop<span class="p">|</span>restart<span class="p">|</span>status<span class="p">|</span>install<span class="p">|</span>uninstall
 </code></pre></div>
-2. Install git
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><a href="#__codelineno-2-1"><span class="linenos" data-linenos="1 "></span></a>apt-get install curl git -y
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a><a href="#__codelineno-2-2"><span class="linenos" data-linenos="2 "></span></a>curl -fsSL https://deb.nodesource.com/setup_16.x <span class="p">|</span> bash -
-</code></pre></div>
-3. Install node js
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><a href="#__codelineno-3-1"><span class="linenos" data-linenos="1 "></span></a>apt install nodejs
-</code></pre></div>
-4. Verify 
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><a href="#__codelineno-4-1"><span class="linenos" data-linenos="1 "></span></a>node --version <span class="o">&amp;&amp;</span> npm --version
-</code></pre></div>
-5. Install global npm to install the latest version
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><a href="#__codelineno-5-1"><span class="linenos" data-linenos="1 "></span></a>npm install -g npm@8.15.0
-<a id="__codelineno-5-2" name="__codelineno-5-2"></a><a href="#__codelineno-5-2"><span class="linenos" data-linenos="2 "></span></a><span class="c1">#or</span>
-<a id="__codelineno-5-3" name="__codelineno-5-3"></a><a href="#__codelineno-5-3"><span class="linenos" data-linenos="3 "></span></a>npm install --local<span class="o">=</span>global npm@latest
-</code></pre></div>
-6. Installer via CLI and follow the steps:
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><a href="#__codelineno-6-1"><span class="linenos" data-linenos="1 "></span></a>curl -o kuma_install.sh http://git.kuma.pet/install.sh <span class="o">&amp;&amp;</span> sudo bash kuma_install.sh
-</code></pre></div>
-Done and returned with that!</p>
-<h3 id="some-use-full-commands-pm2">Some use full commands <code>pm2</code></h3>
-<div class="highlight"><span class="filename">Bash</span><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a><a href="#__codelineno-7-1"><span class="linenos" data-linenos="1 "></span></a><span class="c1"># Run at startup (recommended to-do)</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2"></a><a href="#__codelineno-7-2"><span class="linenos" data-linenos="2 "></span></a>pm2 startup
-<a id="__codelineno-7-3" name="__codelineno-7-3"></a><a href="#__codelineno-7-3"><span class="linenos" data-linenos="3 "></span></a><span class="c1">#check-status</span>
-<a id="__codelineno-7-4" name="__codelineno-7-4"></a><a href="#__codelineno-7-4"><span class="linenos" data-linenos="4 "></span></a>pm2 list
-<a id="__codelineno-7-5" name="__codelineno-7-5"></a><a href="#__codelineno-7-5"><span class="linenos" data-linenos="5 "></span></a><span class="c1">#stop</span>
-<a id="__codelineno-7-6" name="__codelineno-7-6"></a><a href="#__codelineno-7-6"><span class="linenos" data-linenos="6 "></span></a>pm2 stop process_name
-<a id="__codelineno-7-7" name="__codelineno-7-7"></a><a href="#__codelineno-7-7"><span class="linenos" data-linenos="7 "></span></a><span class="c1">#delete</span>
-<a id="__codelineno-7-8" name="__codelineno-7-8"></a><a href="#__codelineno-7-8"><span class="linenos" data-linenos="8 "></span></a>pm2 delete process_name
-</code></pre></div>
+<h3 id="adding-additional-dns-blocklists">Adding Additional DNS Blocklists</h3>
+<p>Go to this website <a href="https://firebog.net/">https://firebog.net</a>
+or list of below name <code>copy</code> and <code>paste</code> on google and search it</p>
+<ul>
+<li>AdGuard DNS filter (37977)</li>
+<li>AdGuard Base filter (68189)</li>
+<li>EasyList (39079)</li>
+<li>Fanboy’s Annoyance List (17874)</li>
+<li>EasyPrivacy (17878)</li>
+<li>Spam404 (8038)</li>
+<li>The Big List of Hacked Malware Web Sites (8913)</li>
+<li>Scam Blocklist by DurableNapkin (404)</li>
+<li>NoCoin Filter List (611)</li>
+<li>feodotracker (163)</li>
+<li>Fanboy’s Problematic websites List (1781)</li>
+<li>StevenBlack: Unified hosts (adware + malware) (57571)</li>
+</ul>
+<p>Other → https://github.com/StevenBlack/hosts</p>
 <hr/>
-<p><strong>Reference link:</strong></p>
-<p>https://www.atlantic.net/dedicated-server-hosting/how-to-install-uptime-kuma-self-hosted-uptime-robot-alternative-on-ubuntu-20-04/ </p>
-<p>https://www.tutorialspoint.com/how-to-install-git-on-linux</p>
-<p>https://www.golinuxcloud.com/install-nodejs-and-npm-on-raspberry-pi/</p>
-<p>https://github.com/louislam/uptime-kuma/wiki/🔧-How-to-Install</p>
+<p>Reference link:</p>
+<p><a href="https://github.com/AdguardTeam/AdGuardHome#getting-started">https://github.com/AdguardTeam/AdGuardHome#getting-started</a></p>
 </article>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 </div>
@@ -264,7 +267,7 @@ Done and returned with that!</p>
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Home" class="md-footer__link md-footer__link--prev" href="../.." rel="prev">
+<a aria-label="Previous: Uptime Kuma Install" class="md-footer__link md-footer__link--prev" href="../uptime-kuma-install/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -273,21 +276,8 @@ Done and returned with that!</p>
 <span class="md-footer__direction">
                 Previous
               </span>
-              Home
+              Uptime Kuma Install
             </div>
-</div>
-</a>
-<a aria-label="Next: Adguard Home Install" class="md-footer__link md-footer__link--next" href="../adguard-home-install/" rel="next">
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Next
-              </span>
-              Adguard Home Install
-            </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
 </div>
 </a>
 </nav>

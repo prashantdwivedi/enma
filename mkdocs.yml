@@ -11,6 +11,12 @@ copyright: Copyright &copy; 2022 Prashant Dwivedi
 extra_css:
   - assets/stylesheets/extra.css
 
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/squidfunk
+
+
 #theme
 theme:
   logo: assets/enma-logo.svg
