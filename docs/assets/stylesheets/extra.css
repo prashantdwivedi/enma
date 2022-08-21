@@ -117,3 +117,8 @@
     margin: 0;
     padding: 0;
   }
+
+  /* header-logo */
+  .md-header__title {
+    margin-left: 0 !important;
+  }
