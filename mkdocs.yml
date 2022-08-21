@@ -107,4 +107,5 @@ nav:
   #- Linux Commands:
   - Linux Software:
     - Uptime Kuma Install: linux-software/uptime-kuma-install.md
+    - Adguard Home Install: linux-software/adguard-home-install.md
   #- Tools Customise:
