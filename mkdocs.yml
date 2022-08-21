@@ -13,8 +13,8 @@ extra_css:
 
 #theme
 theme:
-  logo: assets/enma-logo.svg
-  favicon: assets/enma-logo.svg
+  logo: assets/enma-dev-logo.svg
+  favicon: assets/enma-dev-logo.svg
 
   #features
   features:
@@ -41,10 +41,23 @@ theme:
   #theme-name-and-basic-color
   name: material
   palette:
-      # Palette toggle for dark mode
-    - scheme: slate
+  # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: teal
       accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
   #fonts
   font:
@@ -104,8 +117,8 @@ plugins:
 #footer
 extra:
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/leodwivedi
+    - icon: fontawesome/brands/github
+      link: https://github.com/prashantdwivedi/enma
 
 #nav-page tree
 nav:
