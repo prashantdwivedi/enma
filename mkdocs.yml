@@ -11,12 +11,6 @@ copyright: Copyright &copy; 2022 Prashant Dwivedi
 extra_css:
   - assets/stylesheets/extra.css
 
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/squidfunk
-
-
 #theme
 theme:
   logo: assets/enma-logo.svg
@@ -49,6 +43,8 @@ theme:
   palette:
       # Palette toggle for dark mode
     - scheme: slate
+      primary: teal
+      accent: teal
 
   #fonts
   font:
@@ -100,6 +96,10 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
 
 #footer
 extra:
