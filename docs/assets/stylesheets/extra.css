@@ -122,3 +122,7 @@
   .md-header__title {
     margin-left: 0 !important;
   }
+  /* CodeShow-customeize */
+  .highlight span.filename {display: none !important;}
+  .highlight span.filename+pre>code {margin-top: 1em;}
+  .md-clipboard {top: 1.4em;}
