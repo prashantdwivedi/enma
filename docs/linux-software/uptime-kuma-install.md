@@ -1,40 +1,53 @@
 ### Follow the below steps:
 
 Fix Time, location, and language
+
 ```bash
 sudo raspi-config
 ```
-1. Go on root
+
+1- Go on root
+
 ```bash
 sudo su
 #for exit from root
 exit
 ```
-2. Install git
+
+2- Install git
+
 ```bash
 apt-get install curl git -y
 curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 ```
-3. Install node js
+
+3- Install node js
+
 ```bash
 apt install nodejs
 ```
-4. Verify 
+
+4- Verify 
+
 ```bash
 node --version && npm --version
 ```
-5. Install global npm to install the latest version
+
+5- Install global npm to install the latest version
+
 ```bash
 npm install -g npm@8.15.0
 #or
 npm install --local=global npm@latest
 ```
-6. Installer via CLI and follow the steps:
+
+6- Installer via CLI and follow the steps:
+
 ```bash
 curl -o kuma_install.sh http://git.kuma.pet/install.sh && sudo bash kuma_install.sh
 ```
-Done and returned with that!
 
+Done and returned with that!
 
 ### Some use full commands `pm2`
 
