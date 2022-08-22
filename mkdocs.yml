@@ -71,7 +71,7 @@ markdown_extensions:
       generic: true
   - pymdownx.highlight:
       linenums_style: pymdownx-inline
-      auto_title: true
+      auto_title: false
       linenums: true
       use_pygments: true
       anchor_linenums: true
