@@ -1,7 +1,3 @@
-/* custom font 
-@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
-*/
-
 // Color variables
 :root {
     @extend %root;
@@ -117,8 +113,11 @@
     margin: 0;
     padding: 0;
   }
-
   /* header-logo */
   .md-header__title {
     margin-left: 0 !important;
   }
+  /* CodeShow-customeize 
+  .highlight span.filename {display: none !important;}
+  .highlight span.filename+pre>code {margin-top: 1em;} 
+  .md-clipboard {top: 1.4em;} */
