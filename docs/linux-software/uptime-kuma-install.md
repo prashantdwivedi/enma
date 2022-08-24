@@ -36,8 +36,6 @@ node --version && npm --version
 5- Install global npm to install the latest version
 
 ```bash
-npm install -g npm@8.15.0
-#or
 npm install --local=global npm@latest
 ```
 
