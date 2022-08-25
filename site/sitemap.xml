@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://enma.dev/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-software/adguard-home-install/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-software/pihole-install/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-software/uptime-kuma-install/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://enma.dev/tools-customise/change-hostname/</loc>
+         <lastmod>2022-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
