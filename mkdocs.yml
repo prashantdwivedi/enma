@@ -125,4 +125,5 @@ nav:
     - Uptime Kuma Install: linux-software/uptime-kuma-install.md
     - Adguard Home Install: linux-software/adguard-home-install.md
     - Pi-hole Install: linux-software/pihole-install.md
-  #- Tools Customise:
+  - Tools Customise:
+    - Change hostname: tools-customise/change-hostname.md
