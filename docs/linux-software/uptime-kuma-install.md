@@ -64,10 +64,10 @@ pm2 delete process_name
 
 **Reference link:**
 
-https://www.atlantic.net/dedicated-server-hosting/how-to-install-uptime-kuma-self-hosted-uptime-robot-alternative-on-ubuntu-20-04/ 
+[https://www.atlantic.net/dedicated-server-hosting/how-to-install-uptime-kuma-self-hosted-uptime-robot-alternative-on-ubuntu-20-04/](https://www.atlantic.net/dedicated-server-hosting/how-to-install-uptime-kuma-self-hosted-uptime-robot-alternative-on-ubuntu-20-04/)
 
-https://www.tutorialspoint.com/how-to-install-git-on-linux
+[https://www.tutorialspoint.com/how-to-install-git-on-linux](https://www.tutorialspoint.com/how-to-install-git-on-linux)
 
-https://www.golinuxcloud.com/install-nodejs-and-npm-on-raspberry-pi/
+[https://www.golinuxcloud.com/install-nodejs-and-npm-on-raspberry-pi/](https://www.golinuxcloud.com/install-nodejs-and-npm-on-raspberry-pi/)
 
-https://github.com/louislam/uptime-kuma/wiki/🔧-How-to-Install
+[https://github.com/louislam/uptime-kuma/wiki/🔧-How-to-Install](https://github.com/louislam/uptime-kuma/wiki/🔧-How-to-Install)
