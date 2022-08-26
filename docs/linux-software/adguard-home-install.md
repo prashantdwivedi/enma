@@ -47,6 +47,6 @@ Other → https://github.com/StevenBlack/hosts
 
 Reference link:
 
-https://youtu.be/KOc4k0oFlzU
+[https://youtu.be/KOc4k0oFlzU](https://youtu.be/KOc4k0oFlzU)
 
 [https://github.com/AdguardTeam/AdGuardHome#getting-started](https://github.com/AdguardTeam/AdGuardHome#getting-started)
