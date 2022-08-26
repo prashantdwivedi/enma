@@ -127,3 +127,4 @@ nav:
     - Pi-hole Install: linux-software/pihole-install.md
   - Tools Customise:
     - Change hostname: tools-customise/change-hostname.md
+    - Create and remove swap files: tools-customise/create-and-remove-swap-files.md
