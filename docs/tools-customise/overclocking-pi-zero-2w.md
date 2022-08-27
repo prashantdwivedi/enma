@@ -17,7 +17,7 @@ Add both Lines at The Bottom of the config.txt
 ```bash
 #Overclock 1300
 arm_freq=1300
-over_voltage=4 #change value(4/6)
+over_voltage=4 #change value(4/6) is you have enough cooling and power
 
 #Overclock 1400
 arm_freq=1400
