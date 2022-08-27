@@ -1,4 +1,4 @@
-### Follow the below `steps` to Pi Zero 2 W 1.3GHz
+Follow the below `steps` to Pi Zero 2 W 1.3GHz
 
 ```bash
 #update
