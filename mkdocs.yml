@@ -128,3 +128,4 @@ nav:
   - Tools Customise:
     - Change hostname: tools-customise/change-hostname.md
     - Create and remove swap files: tools-customise/create-and-remove-swap-files.md
+    - Overclocking Pi Zero 2W: overclocking-pi-zero-2w.md
