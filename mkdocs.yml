@@ -129,4 +129,4 @@ nav:
     - Adguard Home Install: linux-software/adguard-home-install.md
     - Pi-hole Install: linux-software/pihole-install.md
   - Tools Customise:
-    - SSH iTerm2 with password manager: tools-customise/ssh-iterm2-with-password-manager.md
+    - SSH iTerm2 & password manager: tools-customise/ssh-iterm2-with-password-manager.md
