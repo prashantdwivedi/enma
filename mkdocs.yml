@@ -121,12 +121,12 @@ extra:
 nav:
   - Home: index.md
   - Linux Commands:
-    - SSH iTerm2 with password manager: linux-commands/ssh-iterm2-with-password-manager.md
+    - Change hostname: linux-commands/change-hostname.md
+    - Create and remove swap files: linux-commands/create-and-remove-swap-files.md
+    - Overclocking Pi Zero 2W: linux-commands/overclocking-pi-zero-2w.md
   - Linux Software:
     - Uptime Kuma Install: linux-software/uptime-kuma-install.md
     - Adguard Home Install: linux-software/adguard-home-install.md
     - Pi-hole Install: linux-software/pihole-install.md
   - Tools Customise:
-    - Change hostname: tools-customise/change-hostname.md
-    - Create and remove swap files: tools-customise/create-and-remove-swap-files.md
-    - Overclocking Pi Zero 2W: tools-customise/overclocking-pi-zero-2w.md
+    - SSH iTerm2 with password manager: tools-customise/ssh-iterm2-with-password-manager.md
