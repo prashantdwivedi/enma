@@ -120,7 +120,8 @@ extra:
 #nav-page tree
 nav:
   - Home: index.md
-  #- Linux Commands:
+  - Linux Commands:
+    - SSH iTerm2 with password manager: linux-commands/ssh-iterm2-with-password-manager.md
   - Linux Software:
     - Uptime Kuma Install: linux-software/uptime-kuma-install.md
     - Adguard Home Install: linux-software/adguard-home-install.md
