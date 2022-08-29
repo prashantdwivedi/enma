@@ -130,3 +130,4 @@ nav:
     - Pi-hole Install: linux-software/pihole-install.md
   - Tools Customise:
     - SSH iTerm2 & password manager: tools-customise/ssh-iterm2-with-password-manager.md
+    - iTerm2 Profile Settings Sync: tools-customise/iterm2-profile-settings-sync.md
