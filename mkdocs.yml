@@ -131,3 +131,4 @@ nav:
   - Tools Customise:
     - SSH iTerm2 & password manager: tools-customise/ssh-iterm2-with-password-manager.md
     - iTerm2 Profile Settings Sync: tools-customise/iterm2-profile-settings-sync.md
+    - Styled iTerm terminal: tools-customise/styled-iterm-terminal.md
