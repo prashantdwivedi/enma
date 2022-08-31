@@ -12,7 +12,7 @@ Open that file select all code and `copy` it.
 
 ![image-1](/assets/thelounge-image-1.png)
 
-1. Launch your `thelounge` go to Setting → ✅ Advanced settings. Scroll down you see `Custom Stylesheet` and paste. No need for save it auto save as click out side that custome stylesheet box and see quick changes. Now enjoy `Dark mode` 🎉
+Launch your `thelounge` go to Setting → ✅ Advanced settings. Scroll down you see `Custom Stylesheet` and paste. No need for save it auto save as click out side that custome stylesheet box and see quick changes. Now enjoy `Dark mode` 🎉
 
 ![image-2](/assets/thelounge-image-2.png)
 

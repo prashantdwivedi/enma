@@ -2,52 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://enma.dev/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-commands/change-hostname/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-commands/create-and-remove-swap-files/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-commands/overclocking-pi-zero-2w/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-software/adguard-home-install/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-software/pihole-install/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/linux-software/uptime-kuma-install/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/tools-customise/iterm2-profile-settings-sync/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/tools-customise/ssh-iterm2-with-password-manager/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://enma.dev/tools-customise/styled-iterm-terminal/</loc>
-         <lastmod>2022-08-30</lastmod>
+         <lastmod>2022-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://enma.dev/tools-customise/the-Lounge-irc-custom-theme/</loc>
+         <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
