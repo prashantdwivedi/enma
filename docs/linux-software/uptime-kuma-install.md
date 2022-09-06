@@ -60,6 +60,27 @@ pm2 stop process_name
 pm2 delete process_name
 ```
 
+### Update or upgrade
+
+```bash
+#default path  
+cd /opt/uptime-kuma
+
+# or if you changed path during installation
+cd <uptime-kuma-directory>
+
+# Update from git
+git fetch --all
+git checkout 1.18.0 --force
+
+# Install dependencies and prebuilt
+npm install --production
+npm run download-dist
+
+# Restart
+pm2 restart uptime-kuma
+```
+
 ---
 
 **Reference link:**
