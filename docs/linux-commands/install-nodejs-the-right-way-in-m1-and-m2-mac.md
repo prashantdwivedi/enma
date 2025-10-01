@@ -1,4 +1,8 @@
-# Install Nodejs the right way in M1 & M2 Mac.
+---
+title: Install Node.js the Right Way in M1 & M2 Mac
+description: Complete guide for installing Node.js properly on Apple Silicon MacBooks using Homebrew and NVM
+icon: apple
+---
 
 This guide is specifically for MacBook models M1 and M2 for a new and fresh install.
 
@@ -36,7 +40,7 @@ mkdir ~/.nvm
 
 Add the following to `~/.zshrc` or your desired shell configuration file:
 
-![Untitled](../assets/nvm-path-min.png)
+![Untitled](/docs/assets/nvm-path-min.png)
 
 Last, do `source ~/.zshrc` or restart terminal.
 

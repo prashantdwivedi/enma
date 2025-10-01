@@ -1,6 +1,12 @@
-![cover-image](/assets/styled-iterm-cover.png)
+---
+title: Styled iTerm Terminal
+description: Customize your iTerm2 terminal with themes, status bars, and configurations
+icon: palette
+---
 
-Fish shell prompt use [fishshell.com](https://fishshell.com/) and the theme is [Tomorrow Night](https://iterm2colorschemes.com/) or [draculatheme.com](https://draculatheme.com/). But I use other theme and do some my own customisation. 
+![cover-image](/docs/assets/styled-iterm-cover.png)
+
+Fish shell prompt use [fishshell.com](https://fishshell.com/) and the theme is [Tomorrow Night](https://iterm2colorschemes.com/) or [draculatheme.com](https://draculatheme.com/). But I use other theme and do some my own customisation.
 
 ### Tabs in left panel
 
@@ -12,7 +18,7 @@ You also can customize the icon and session title, to do that, simple go to `iT
 
 This is a new super cool ui improvement of iTerm, to enabled it go to `iTerm > Preferences > Profiles` then in the left sub sections go to `Session`. There at the bottom, you will find the enabled check and the configuration link, where you can customize which components put on your bar. It's simple just drag and drop the components.
 
-![image](/assets/styled-iterm-image.png)
+![image](/docs/assets/styled-iterm-image.png)
 
 To change the location of the bar, just go to `iTerm > Preferences > Appearance`, there in `General` you will see `Status bar location`, set that to `Bottom`.
 

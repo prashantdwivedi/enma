@@ -1,3 +1,9 @@
+---
+title: TheLounge IRC Custom Theme
+description: Apply custom themes and CSS to your self-hosted TheLounge IRC client
+icon: comments
+---
+
 The self-hosted web IRC client — [thelounge.chat](https://thelounge.chat/)
 
 ---
@@ -7,14 +13,14 @@ The self-hosted web IRC client — [thelounge.chat](https://thelounge.chat/)
 Here is more simple and easy method.
 
 1. Go to [https://draculatheme.com/](https://draculatheme.com/) and search the lounge scroll down and find **`Install manually`** and Download using the [GitHub .zip download](https://github.com/dracula/thelounge/archive/master.zip) option and unzip them.
-2. Open you favourite code editor. Mine is `Visual Studio Code` and open folder which you download and find `.css` file. See below image you can see `dracula.css`. 
-Open that file select all code and `copy` it.
+2. Open you favourite code editor. Mine is `Visual Studio Code` and open folder which you download and find `.css` file. See below image you can see `dracula.css`.
+   Open that file select all code and `copy` it.
 
-![image-1](/assets/thelounge-image-1.png)
+![image-1](/docs/assets/thelounge-image-1.png)
 
 Launch your `thelounge` go to Setting → ✅ Advanced settings. Scroll down you see `Custom Stylesheet` and paste. No need for save it auto save as click out side that custome stylesheet box and see quick changes. Now enjoy `Dark mode` 🎉
 
-![image-2](/assets/thelounge-image-2.png)
+![image-2](/docs/assets/thelounge-image-2.png)
 
 ---
 
@@ -38,11 +44,13 @@ Sometimes if your irc, znc, bnc connection is not ssl secured the lounch chat sh
 
 Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Plex Sans, Noto Sans, Open Sans, Roboto, Rubik, Source Sans Pro, Titillium Web, Ubuntu
 */
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700&display=swap");
 
 /* Use system font by default (San Francisco on macOS) and Roboto as second */
 body {
-  font: 14px -apple-system, 'Roboto', 'Rubik', system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font: 14px -apple-system, "Roboto", "Rubik", system-ui, Segoe UI, Roboto,
+    Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+    Arial;
   /* -moz-osx-font-smoothing: grayscale; */
   -webkit-font-smoothing: subpixel-antialiased;
   /* text-rendering: geometricPrecision; */
@@ -56,11 +64,11 @@ body {
 
 /* General vars */
 :root {
-  --body-color: rgba(248, 248, 242, .77);
+  --body-color: rgba(248, 248, 242, 0.77);
   --msg-self-color: #fff;
   --msg-self-bg-color: #1b1f27;
   --msg-action-color: #f1fa8c;
-  --border-color: rgba(98, 114, 164, .14);
+  --border-color: rgba(98, 114, 164, 0.14);
   --body-color-muted: #6272a4;
   --body-bg-color: #151320;
   --button-color: #50fa7b;
@@ -71,13 +79,13 @@ body {
   --window-heading-color: #44475a;
   --date-marker-color: rgba(40, 42, 54, 0.5);
   --unread-marker-color: #ff79c6;
-  --highlight-bg-color: rgba(255, 255, 255, .04);
-  --highlight-border-color: rgba(255, 255, 255, .04);
+  --highlight-bg-color: rgba(255, 255, 255, 0.04);
+  --highlight-border-color: rgba(255, 255, 255, 0.04);
   --upload-progressbar-color: #50fa7b;
   --highlight-msg-color: #fff;
-  --time-color: rgba(255, 255, 255, .1);
-  --time-color-hover: rgba(255, 255, 255, .8);
-  --channel-list-item-hover-background: rgba(255, 255, 255, .05);
+  --time-color: rgba(255, 255, 255, 0.1);
+  --time-color-hover: rgba(255, 255, 255, 0.8);
+  --channel-list-item-hover-background: rgba(255, 255, 255, 0.05);
   --font-size: 15px;
   --font-size-msg: 15px;
   --font-size-channel-list: 15px;
@@ -90,7 +98,8 @@ body {
 }
 
 .channel-list-item .add-channel:before {
-  font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto
+      Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-size: 19px;
 }
 
@@ -126,7 +135,7 @@ body {
 
 .window {
   border-radius: 5px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
@@ -154,7 +163,7 @@ body {
   font-weight: 300;
   opacity: 1;
   order: 8;
-  transition: all .55s;
+  transition: all 0.55s;
 }
 
 #chat .time:hover,
@@ -197,7 +206,7 @@ input {
 .channel-list-item:hover,
 .channel-list-item:focus {
   background: var(--channel-list-item-hover-background);
-  transition: all .55s;
+  transition: all 0.55s;
 }
 
 #chat .msg.self {
@@ -212,7 +221,7 @@ input {
   color: var(--msg-self-color) !important;
 }
 
-#chat .msg[data-type=action] .from::before,
+#chat .msg[data-type="action"] .from::before,
 #chat .msg[data-type="action"],
 #chat .msg[data-type="action"] .content,
 #chat .msg[data-type="action"] span,
@@ -226,12 +235,12 @@ input {
     display: block !important;
   }
 
-  #chat .msg:not(.closed):not([data-type=condensed]),
-  #chat .msg:not(.closed):not([data-type=condensed])[data-type="message"] {
+  #chat .msg:not(.closed):not([data-type="condensed"]),
+  #chat .msg:not(.closed):not([data-type="condensed"])[data-type="message"] {
     display: flex;
   }
 
-  #chat .msg.closed[data-type=condensed] .msg {
+  #chat .msg.closed[data-type="condensed"] .msg {
     display: none !important;
   }
 
@@ -243,8 +252,16 @@ input {
 
   #chat .from {
     flex: 0 0 auto;
-    -webkit-mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px) !important;
-    mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px) !important;
+    -webkit-mask-image: linear-gradient(
+      270deg,
+      transparent,
+      var(--window-bg-color) 10px
+    ) !important;
+    mask-image: linear-gradient(
+      270deg,
+      transparent,
+      var(--window-bg-color) 10px
+    ) !important;
     padding: 2px 10px 0 0 !important;
     width: 75px !important;
   }
@@ -278,7 +295,7 @@ input {
   color: var(--body-color-muted) !important;
 }
 
-.channel-list-item[data-type=channel]::before,
+.channel-list-item[data-type="channel"]::before,
 .context-menu-chan::before {
   content: "\f086";
 }
@@ -331,7 +348,7 @@ input {
   margin-top: 10px;
 }
 
-.channel-list-item[data-type=lobby],
+.channel-list-item[data-type="lobby"],
 .irc-bold,
 #chat .toggle-content .head {
   font-weight: 500;
@@ -516,9 +533,10 @@ code,
 
 kbd {
   background-color: #333;
-  background-image: linear-gradient(rgba(0, 0, 0, .25), transparent);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent);
   border-color: var(--window-bg-color);
-  box-shadow: 0 2px 0 var(--window-bg-color), inset 0 1px 1px #777, inset 0 -1px 3px #222;
+  box-shadow: 0 2px 0 var(--window-bg-color), inset 0 1px 1px #777,
+    inset 0 -1px 3px #222;
   color: #eee;
   text-shadow: 0 -1px 0 var(--window-bg-color);
 }
@@ -537,17 +555,17 @@ kbd {
 
 #chat-container ::placeholder {
   color: #99a2b4;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #chat-container ::input-placeholder {
   color: #99a2b4;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #chat-container :input-placeholder {
   color: #99a2b4;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .window {
@@ -562,12 +580,12 @@ kbd {
   color: #f92772 !important;
 }
 
-#chat .chat-view[data-type=channel] .msg.highlight {
+#chat .chat-view[data-type="channel"] .msg.highlight {
   background: var(--highlight-bg-color) !important;
   border-left: 0 !important;
 }
 
-#chat .chat-view[data-type=channel] .msg.highlight .content {
+#chat .chat-view[data-type="channel"] .msg.highlight .content {
   color: var(--highlight-msg-color);
   font-weight: 600;
 }
@@ -632,7 +650,7 @@ body #chat .toggle-content .thumb {
 .textcomplete-item:hover,
 .context-menu-item:focus,
 .textcomplete-item:focus {
-  background: rgba(255, 255, 255, .11);
+  background: rgba(255, 255, 255, 0.11);
 }
 
 #form #input {
@@ -655,7 +673,7 @@ body #chat .toggle-content .thumb {
   color: var(--body-color);
 }
 
-#chat .msg[data-type=condensed] .msg,
+#chat .msg[data-type="condensed"] .msg,
 #chat .msg {
   padding-bottom: 0;
   padding-top: 0;
@@ -667,7 +685,7 @@ body #chat .toggle-content .thumb {
 }
 
 @media (max-width: 479px) {
-  #chat .chat-view[data-type=channel] .msg.highlight {
+  #chat .chat-view[data-type="channel"] .msg.highlight {
     padding-left: 10px;
   }
 }

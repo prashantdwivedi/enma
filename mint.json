@@ -1,0 +1,99 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Enma Dev",
+  "logo": {
+    "dark": "/docs/assets/enma-dev-logo.svg",
+    "light": "/docs/assets/enma-dev-logo.svg"
+  },
+  "favicon": "/docs/assets/enma-dev-logo.svg",
+  "colors": {
+    "primary": "#14b8a6",
+    "light": "#5eead4",
+    "dark": "#0d9488",
+    "anchors": {
+      "from": "#14b8a6",
+      "to": "#0d9488"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/prashantdwivedi/enma"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Home",
+    "url": "https://enma.dev"
+  },
+  "tabs": [
+    {
+      "name": "Linux Commands",
+      "url": "linux-commands"
+    },
+    {
+      "name": "Linux Software",
+      "url": "linux-software"
+    },
+    {
+      "name": "Tools Customise",
+      "url": "tools-customise"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/prashantdwivedi/enma"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["docs/index"]
+    },
+    {
+      "group": "Linux Commands",
+      "pages": [
+        "docs/linux-commands/change-hostname",
+        "docs/linux-commands/create-and-remove-swap-files",
+        "docs/linux-commands/overclocking-pi-zero-2w",
+        "docs/linux-commands/install-nodejs-the-right-way-in-m1-and-m2-mac"
+      ]
+    },
+    {
+      "group": "Linux Software",
+      "pages": [
+        "docs/linux-software/uptime-kuma-install",
+        "docs/linux-software/adguard-home-install",
+        "docs/linux-software/pihole-install"
+      ]
+    },
+    {
+      "group": "Tools Customise",
+      "pages": [
+        "docs/tools-customise/ssh-iterm2-with-password-manager",
+        "docs/tools-customise/iterm2-profile-settings-sync",
+        "docs/tools-customise/styled-iterm-terminal",
+        "docs/tools-customise/the-Lounge-irc-custom-theme",
+        "docs/tools-customise/home-assistant-supervised",
+        "docs/tools-customise/xiaomi-cloud-tokens-extractor"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/prashantdwivedi/enma"
+  },
+  "search": {
+    "prompt": "Search documentation..."
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    }
+  }
+}

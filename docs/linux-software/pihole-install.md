@@ -1,3 +1,9 @@
+---
+title: Pi-hole Install
+description: Set up Pi-hole for network-wide ad blocking via your own Linux hardware
+icon: shield
+---
+
 Network-wide ad blocking via your own Linux hardware
 
 The Pi-hole is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content without installing any client-side software. Follow below steps:

@@ -1,3 +1,9 @@
+---
+title: Uptime Kuma Install
+description: Step-by-step guide to install Uptime Kuma, a self-hosted uptime monitoring tool
+icon: heart-pulse
+---
+
 ### Follow the below steps:
 
 Fix Time, location, and language
@@ -27,7 +33,7 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 apt install nodejs
 ```
 
-4- Verify 
+4- Verify
 
 ```bash
 node --version && npm --version
@@ -63,7 +69,7 @@ pm2 delete process_name
 ### Update or upgrade
 
 ```bash
-#default path  
+#default path
 cd /opt/uptime-kuma
 
 # or if you changed path during installation

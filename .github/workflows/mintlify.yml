@@ -1,0 +1,73 @@
+name: Mintlify Documentation
+
+on:
+  push:
+    branches:
+      - main
+      - mintlify
+  pull_request:
+    branches:
+      - main
+      - mintlify
+
+jobs:
+  validate:
+    name: Validate Mintlify Config
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install Mintlify CLI
+        run: npm install -g mintlify
+
+      - name: Validate mint.json
+        run: |
+          if [ -f mint.json ]; then
+            echo "✅ mint.json found"
+            # Basic validation - check if it's valid JSON
+            node -e "JSON.parse(require('fs').readFileSync('mint.json', 'utf-8'))"
+            echo "✅ mint.json is valid JSON"
+          else
+            echo "❌ mint.json not found"
+            exit 1
+          fi
+
+      - name: Check documentation files
+        run: |
+          echo "📚 Checking documentation files..."
+
+          # Check if docs directory exists
+          if [ -d docs ]; then
+            echo "✅ docs/ directory found"
+            
+            # Count markdown files
+            MD_COUNT=$(find docs -name "*.md" | wc -l)
+            echo "📄 Found $MD_COUNT markdown files"
+            
+            # Check if index.md exists
+            if [ -f docs/index.md ]; then
+              echo "✅ docs/index.md found"
+            else
+              echo "⚠️  docs/index.md not found - consider creating a homepage"
+            fi
+          else
+            echo "❌ docs/ directory not found"
+            exit 1
+          fi
+
+      - name: Summary
+        run: |
+          echo "🎉 All checks passed!"
+          echo "📖 Your Mintlify documentation is ready for deployment"
+          echo ""
+          echo "Next steps:"
+          echo "1. Connect your repository to Mintlify at https://mintlify.com"
+          echo "2. Your docs will be automatically deployed on every push"
+          echo "3. Preview locally with: mintlify dev"

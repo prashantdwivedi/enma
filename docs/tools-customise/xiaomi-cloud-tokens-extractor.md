@@ -1,3 +1,9 @@
+---
+title: Xiaomi Cloud Tokens Extractor
+description: Extract authentication tokens from Xiaomi Cloud for Home Assistant integration
+icon: cloud
+---
+
 ## Manual run in python
 
 Download: `token_extractor link below`

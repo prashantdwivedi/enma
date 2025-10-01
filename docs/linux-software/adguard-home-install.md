@@ -1,4 +1,10 @@
-![Untitled](/assets/adguard-cover.png)
+---
+title: AdGuard Home Install
+description: Install AdGuard Home for network-wide ad blocking and DNS management
+icon: shield-halved
+---
+
+![Untitled](/docs/assets/adguard-cover.png)
 
 ### Automated install (Linux and Mac)
 

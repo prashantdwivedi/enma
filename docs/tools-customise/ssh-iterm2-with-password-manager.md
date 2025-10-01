@@ -1,3 +1,9 @@
+---
+title: SSH iTerm2 & Password Manager
+description: Configure iTerm2 to work seamlessly with password manager for secure SSH connections
+icon: key
+---
+
 ### Follow the below steps:
 
 1. Go to `iTerm2` menu and click `Install shell Integration`.

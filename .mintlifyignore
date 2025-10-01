@@ -1,0 +1,6 @@
+# Ignore MkDocs configuration file
+mkdocs.yml
+
+# Ignore any other MkDocs related files
+requirements.txt
+mkdocs_requirements.txt

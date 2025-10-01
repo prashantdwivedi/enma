@@ -1,3 +1,9 @@
+---
+title: Create and Remove Swap Files
+description: A complete guide to creating, managing, and removing swap files in Linux
+icon: database
+---
+
 There are two basic types of memory: Random Access Memory (RAM) and swap files.
 
 ## Recommended swap file size based on RAM
@@ -48,9 +54,9 @@ With that done, dedicate the file as swap space by entering:
 sudo mkswap /swapfile
 ```
 
-The output should say something like: 
+The output should say something like:
 
-``Setting up swapspace version 1, size = 2 GiB (2147479552 bytes) no label, UUID=f9429158-ec78-4dce-98c0-986167b47016``
+`Setting up swapspace version 1, size = 2 GiB (2147479552 bytes) no label, UUID=f9429158-ec78-4dce-98c0-986167b47016`
 
 Now we just need to enable the swap file:
 

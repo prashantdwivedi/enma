@@ -1,6 +1,12 @@
+---
+title: Home Assistant Supervised
+description: Advanced guide to install Home Assistant Supervised on Raspberry Pi
+icon: house
+---
+
 ## This Home Assistant Supervised installation method is for advanced users only
 
-![cover-image](/assets/has-cover.png)
+![cover-image](/docs/assets/has-cover.png)
 
 Run the following commands as root (`su -`or `sudo su -`on machines with sudo installed):
 
@@ -39,11 +45,11 @@ Now run this command help you pick next package which is `os-agent` very importa
 uname -m
 ```
 
-My case is `aarch64` now 
+My case is `aarch64` now
 
 Go to page: https://github.com/home-assistant/os-agent/releases and pick based on your `arch —version`. Right-click and copy url.
 
-![image1](/assets/has-image-1.png)
+![image1](/docs/assets/has-image-1.png)
 
 Now do follow below steps.
 
@@ -62,7 +68,7 @@ gdbus introspect --system --dest io.hass.os --object-path /io/hass/os
 
 Go to page: https://github.com/home-assistant/supervised-installer/releases
 
-![image2](/assets/has-image-2.png)
+![image2](/docs/assets/has-image-2.png)
 
 Right click on **`homeassistant-supervised` and copy url**
 
@@ -84,9 +90,9 @@ Next step is `select machin type` it show you list and pick it. My case is `rasp
 
 Now just wait to see this If you see on your terminal means done
 
-![image3](/assets/has-image-3.png)
+![image3](/docs/assets/has-image-3.png)
 
-![image4](/assets/has-image-4.png)
+![image4](/docs/assets/has-image-4.png)
 
 <aside>
 ⚠️ Wait it take 20 min to finish process depending on your internet do not go on rush.

@@ -1,3 +1,9 @@
+---
+title: Overclocking Pi Zero 2W
+description: Guide to safely overclock your Raspberry Pi Zero 2 W to 1.3GHz or 1.4GHz
+icon: microchip
+---
+
 Follow the below `steps` to Pi Zero 2 W 1.3GHz
 
 ```bash
@@ -33,7 +39,7 @@ Reboot
 sudo reboot
 ```
 
-Measure Temperature 
+Measure Temperature
 
 ```bash
 vcgencmd measure_temp
